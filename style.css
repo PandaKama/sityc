@@ -50,14 +50,13 @@ body{
 	height: 25px;
 	display: block;
 	background: #e5e696; /* Old browsers */
-background: -moz-linear-gradient(top,  #e5e696 0%, #d1d360 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e696), color-stop(100%,#d1d360)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #e5e696 0%,#d1d360 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
-
+	background: -moz-linear-gradient(top,  #e5e696 0%, #d1d360 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e696), color-stop(100%,#d1d360)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e5e696 0%,#d1d360 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
 	text-align: center;
 	padding-top: 5px;
 	font-family: Arial;
@@ -66,4 +65,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', end
 	text-shadow: 0px 2px 0px rgba(255,255,255,0.3);
 	border: solid 1px #d1d1d1;
 	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3), 0px 0px 5px rgba(255,255,255,0.3);
+}
+.nav-ul{
+	margin-top: 20px;
+}
+.nav_element{
+	list-style: none;
+	float: left;
+	padding:8px;
+	font-family: arial;
+	font-size: 14px;
+	color: #333333;
+}
+.nav_element:hover{
+	color: #ff9933;
+	cursor: pointer;
+	background-color: #000;
+}
+.nav_element:active{
+	background-color: #ccc;
+}
+#blok{
+	float: right;
+	font-family: arial;
+	font-size: 14px;
+	border: solid 1px yellow;
 }
