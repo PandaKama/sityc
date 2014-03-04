@@ -1,0 +1,13 @@
+.class{
+	width: 200px;
+	height: 30px;
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	margin-top: 20px;
+	transition: all 0.2s ease-in-out 1s;
+}
+.class:focus{
+	width: 400px;
+	height: 60px;
+	outline: none;
+}
